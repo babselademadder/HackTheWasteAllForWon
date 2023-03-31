@@ -49,3 +49,11 @@ img{
     width: 30em;
    
 }
+
+/*Interactive Page*/
+.MasterGrid{
+    display:grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    
+
+}

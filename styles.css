@@ -8,6 +8,7 @@
     height: fit-content;
 }
 section {
+    margin-top: 40px;
     height: 15em;
  
     margin-bottom: 40px;
@@ -15,12 +16,17 @@ section {
 .DisplayGrid1{
     display: grid;
     grid-template-columns: 30em auto;
-    
+    box-shadow: 10px 10px 5px 0px rgb(0, 110, 255);
+ 
+    border: 1px solid rgb(0, 110, 255);
+    border-radius: 5px;
 }
 .DisplayGrid2{
     display: grid;
     grid-template-columns: auto 30em;
-    
+    border: 1px solid rgb(0, 110, 255);
+    box-shadow: 10px 10px 5px 0px rgb(0, 110, 255);
+    border-radius: 5px;
 }
 .Grid-item2{
     height: 15em;
@@ -30,15 +36,16 @@ section {
 .Grid-item2{
     height: 15em;
    
-    border-right: solid black 2px;
-}
-.Grid-item{
-    height: 15em;
    
-    border: solid black 2px;
 }
+
 .Grid-item1{
     height: 15em;
    
-    border-right: solid black 2px;
+
+}
+img{
+    height: 15em;
+    width: 30em;
+   
 }

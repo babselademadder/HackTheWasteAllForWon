@@ -1,0 +1,44 @@
+/*CSS for INFO PAGE*/
+
+.BODY{
+
+    margin-left: 100px;
+    margin-right: 100px;
+    background-image: none;
+    height: fit-content;
+}
+section {
+    height: 15em;
+ 
+    margin-bottom: 40px;
+}
+.DisplayGrid1{
+    display: grid;
+    grid-template-columns: 30em auto;
+    
+}
+.DisplayGrid2{
+    display: grid;
+    grid-template-columns: auto 30em;
+    
+}
+.Grid-item2{
+    height: 15em;
+   
+   
+}
+.Grid-item2{
+    height: 15em;
+   
+    border-right: solid black 2px;
+}
+.Grid-item{
+    height: 15em;
+   
+    border: solid black 2px;
+}
+.Grid-item1{
+    height: 15em;
+   
+    border-right: solid black 2px;
+}
